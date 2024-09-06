@@ -1,0 +1,99 @@
+/*
+    该页面为粉红色皮肤
+*/
+
+
+/*背景*/
+#frame_background{
+border-image:url(:/res/pic/background-1.png);
+}
+
+/*登录背景*/
+#frame_login{background-color:#ffffff}
+
+/*右侧图片*/
+#frame_pic{
+    background-image:url(:/res/pic/1.png);
+
+}
+/*账户和密码框*/
+#frame_user_name,#frame_pwd{
+    border: 1px solid #696969;
+    border-radius: 5px;
+}
+
+QLineEdit{
+    border: none;
+}
+
+
+/*按钮-登录*/
+#btn_login{
+    color:#ffffff;
+    border: none;
+    background-color:#fd6c92;
+    border-radius: 5px;
+}
+/*按钮-登录-鼠标悬停*/
+#btn_login:hover{
+    color:#ffffff;
+    border: none;
+    background-color:#fd4979;
+    border-radius: 5px;
+}
+/*按钮-登录-鼠标按下*/
+#btn_login:pressed{
+    color:#ffffff;
+    border: none;
+    background-color:#fd6c92;
+    border-radius: 5px;
+}
+
+/*label-login*/
+#label_login
+{
+    color:#e83737;
+
+}
+
+/*label_pwd*/
+#label_pwd
+{
+    color:#e83737;
+
+}
+
+/*按钮-注册*/
+#btn_regist{
+    color:#ffffff;
+    border: none;
+    background-color:#fd6c92;
+    border-radius: 5px;
+}
+/*按钮-注册-鼠标悬停*/
+#btn_regist:hover{
+    color:#ffffff;
+    border: none;
+    background-color:#fd4979;
+    border-radius: 5px;
+}
+/*按钮-注册-鼠标按下*/
+#btn_regist:pressed{
+    color:#ffffff;
+    border: none;
+    background-color:#fd6c92;
+    border-radius: 5px;
+}
+
+/*图标-账户*/
+#label_user_name
+{
+    border-image:url(:/res/pic/user_name.png);
+}
+/*图标-密码*/
+#label_pwd
+{
+    border-image:url(:/res/pic/pwd.png);
+
+}
+

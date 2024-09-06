@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Index</class>
+ <widget class="QWidget" name="Index">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>919</width>
+    <height>633</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QFrame" name="frame_background">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item row="0" column="0">
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QPushButton" name="bnt_friend">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">/*按钮-登录*/
+#bnt_friend{
+    color:#ffffff;
+    border: none;
+    background-color:#fd6c92;
+    border-radius: 20px;
+	padding: 20px;
+}
+/*按钮-登录-鼠标悬停*/
+#bnt_friend:hover{
+    color:#ffffff;
+    border: none;
+    background-color:#fd4979;
+    border-radius: 20px;
+	padding: 20px;
+}
+/*按钮-登录-鼠标按下*/
+#bnt_friend:pressed{
+    color:#ffffff;
+    border: none;
+    background-color:#fd6c92;
+    border-radius: 20px;
+	padding: 20px;
+}</string>
+          </property>
+          <property name="text">
+           <string>好
+友</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="bnt_file">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">/*按钮-登录*/
+#bnt_file{
+    color:#ffffff;
+    border: none;
+    background-color:#fd6c92;
+    border-radius: 20px;
+	padding: 20px;
+}
+/*按钮-鼠标悬停*/
+#bnt_file:hover{
+    color:#ffffff;
+    border: none;
+    background-color:#fd4979;
+    border-radius: 20px;
+	padding: 20px;
+}
+/*按钮-鼠标按下*/
+#bnt_file:pressed{
+    color:#ffffff;
+    border: none;
+    background-color:#fd6c92;
+    border-radius: 20px;
+	padding: 20px;
+}</string>
+          </property>
+          <property name="text">
+           <string>文
+件</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="0" column="1">
+       <widget class="QStackedWidget" name="stackedWidget">
+        <widget class="Friend" name="page_friend"/>
+        <widget class="File" name="page_file"/>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>Friend</class>
+   <extends>QWidget</extends>
+   <header>friend.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>File</class>
+   <extends>QWidget</extends>
+   <header>file.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
